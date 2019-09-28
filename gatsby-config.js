@@ -7,7 +7,7 @@ module.exports = {
     focusArea: `I'm a Full Stack Developer, Currently focussing on Big Data Technologies`,
     twitterId: `@aTechGuide`,
     linkedInId: `kamranalinitb`,
-    siteUrl: `https://portfolio.kamranalinitb.now.sh`,
+    siteUrl: `https://kamranali.in`,
     keywords: [`Technology Blog`],
     email: `admin@atech.guide`,
     social: [
