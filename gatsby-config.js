@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `ATech Guide`,
+    title: `Kamran Ali`,
     description: `Kamran Ali's Tech Blog`,
     author: `Kamran Ali`,
+    headline: `Hi, I'm Kamran Ali, SDE II @Expedia Inc.`,
+    focusArea: `I'm a Full Stack Developer, Currently focussing on Big Data Technologies`,
     twitterId: `@aTechGuide`,
+    linkedInId: `kamranalinitb`,
     siteUrl: `https://kamranali.netlify.com`,
-    genre: 'Technical Tutorials',
     keywords: [`Technology Blog`],
     email: `admin@atech.guide`,
     social: [
@@ -13,31 +15,27 @@ module.exports = {
     ],
     contactSupport: 'https://www.facebook.com/aTechGuide/',
     bingId: '',
-    menuLinks: [{name: 'Tags', link: '/tags/'}],
-    footerLinks: [{name: 'About', link: '/detailed-tech-tutorials/'}, {name: 'Terms of Use', link: '/terms-of-use/'}, {name: 'Privacy Policy', link: '/privacy-policy/'}],
-    displayFooterMessage: true,
-    comments: 'true' // Enable disable comments
+    menuLinks: [{name: 'Projects', link: '/page/1'}, {name: 'Resume', link: 'https://docs.google.com/document/d/17ANlKXIhwGBoSyMxsALduuWv6itjB1K__esdky08VcI/'}, {name: 'Blog', link: 'http://atech.guide'}],
   },
   plugins: [
     {
       resolve: "gatsby-theme-portfolio-starter",
       options: {
         trackingId: "UA-27634418-4",
-        postsPath: "posts",
+        projectsPath: "projects",
         imagesPath: "images",
-        postsPerPage: "12",
-        mailchimpURL: "https://kamranali.us17.list-manage.com/subscribe/post?u=835b966c8e4fb4811d20a1b0c&amp;id=1ccb85525c"
+        projectsPerPage: "12"
       },
     },
     {
       resolve: `gatsby-plugin-manifest`, //<- Creates manifest file
       options: {
-        name: "ATechGuide",
-        short_name: "ATechGuide",
-        description: "Tech Blog",
+        name: "Kamran Ali Portfolio",
+        short_name: "portfolio",
+        description: "Kamran Ali Portfolio and Projects",
         start_url: "/",
-        background_color: "#673ab7",
-        theme_color: "#673ab7",
+        background_color: "#455a64",
+        theme_color: "#455a64",
         display: "standalone",
         icon: "images/icon.png",
       },
@@ -64,10 +62,10 @@ module.exports = {
         mergeStyleHashes: false, 
         mergeDefaultDirectives: true,
         directives: {
-          "default-src": "'self' disqus.com marketingplatform.google.com/about/analytics/ c.disquscdn.com www.google-analytics.com www.google.com/analytics/",
-          "script-src": "'self' 'unsafe-inline' www.google-analytics.com kamranali.disqus.com", //<- 'unsafe-inline' is unsafe and is required by Disqus
-          "style-src": "'self' 'unsafe-inline' c.disquscdn.com", //<- "'unsafe-inline'" should be avoided but the plugin was broken with mergeStyleHashes
-          "img-src": "'self' data: www.google-analytics.com referrer.disqus.com c.disquscdn.com"
+          "default-src": "'self' marketingplatform.google.com/about/analytics/ www.google-analytics.com www.google.com/analytics/",
+          "script-src": "'self' www.google-analytics.com",
+          "style-src": "'self' 'unsafe-inline'",
+          "img-src": "'self' data: www.google-analytics.com"
         }
       }
     }
