@@ -7,7 +7,7 @@ module.exports = {
     focusArea: `I'm a Full Stack Developer, Currently focussing on Big Data Technologies`,
     twitterId: `@aTechGuide`,
     linkedInId: `kamranalinitb`,
-    siteUrl: `https://kamranali.netlify.com`,
+    siteUrl: `https://portfolio.kamranalinitb.now.sh`,
     keywords: [`Technology Blog`],
     email: `admin@atech.guide`,
     social: [
