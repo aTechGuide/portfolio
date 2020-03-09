@@ -4,7 +4,7 @@ module.exports = {
     description: `An avid Blogger, Quick Learner, and Coder at heart having a strong background in designing and delivering responsive, elastic and resilient systems based on Microservices using Java and AWS Technologies. Passionate about diving into Latest Technologies and Problem Solving`,
     author: `Kamran Ali`,
     headline: `Hi, I'm Kamran Ali, SDE II @Expedia Inc.`,
-    focusArea: `I'm a Full Stack Developer, Currently focussing on Big Data Technologies`,
+    focusArea: `I'm a Data Science enthusiast, Currently focussing in building generic Data Pipelines.`,
     twitterId: `@aTechGuide`,
     linkedInId: `kamranalinitb`,
     siteUrl: `https://kamranali.in`,
