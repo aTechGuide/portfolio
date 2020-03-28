@@ -1,7 +1,7 @@
 ---
 dataType: project
 title: Click Stream Analysis
-description: This project demonstrates aggregation of data on rolling window of events (Not necessarily time). Click streams are captured via web page hosted on Akka HTTP Webserver. The click events are sent to Kafka which are then read by spark structured streaming App to perform the aggregations.
+description: This project demonstrates the aggregation of data on a rolling window of events (Not necessarily time). We capture click streams via a web page hosted on Akka HTTP Webserver. The click events sent to Kafka are read by spark structured streaming App to perform the aggregations.
 date: '2020-03-28'
 tags:
   - Spark Structured Streaming
