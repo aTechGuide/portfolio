@@ -1,6 +1,4 @@
-# Portfolio
-
-My online portfolio.
+# Portfolio Website
 
 ## Commands
 
