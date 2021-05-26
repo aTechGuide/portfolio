@@ -3,7 +3,7 @@ module.exports = {
     title: `Kamran Ali`,
     description: `An avid Blogger, Quick Learner, and Coder at heart having a strong background in designing and delivering responsive, elastic and resilient systems based on Microservices using Java and AWS Technologies. Passionate about diving into Latest Technologies and Problem Solving`,
     author: `Kamran Ali`,
-    headline: `Hi, I'm Kamran Ali, Senior Software Development Engineer @Expedia Inc.`,
+    headline: `Hi, I'm Kamran Ali, Senior Data Engineer @Expedia Group`,
     focusArea: `Aspiring to build Simple Solution to Complex Problems, I've ~8.5 years of experience. Currently focussing on Distributed Systems processing data in Batches and Streams. I have a strong background in building Microservices using Spring Boot, Java, and AWS Technologies.`,
     twitterId: `@aTechGuide`,
     linkedInId: `kamranalinitb`,

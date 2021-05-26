@@ -3,8 +3,8 @@
 ## Commands
 
 |                | Command     | 
-| :-------------: | :----------: |
-| Development   | gatsby clean && gatsby develop  | 
+| :------------: | :----------: |
+| Development    | gatsby clean && gatsby develop  | 
 | Production     | gatsby clean && gatsby build && gatsby serve |
 
 ## Deployment
