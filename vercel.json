@@ -4,6 +4,31 @@
         "source": "/chat",
         "destination": "https://discord.gg/Pc9ed8krYK",
         "permanent": true
+      },
+      {
+        "source": "/linkedin",
+        "destination": "https://www.linkedin.com/in/aTechGuide",
+        "permanent": true
+      },
+      {
+        "source": "/twitter",
+        "destination": "https://twitter.com/aTechGuide",
+        "permanent": true
+      },
+      {
+        "source": "/blog",
+        "destination": "https://atech.guide",
+        "permanent": true
+      },
+      {
+        "source": "/instagram",
+        "destination": "https://www.instagram.com/aTechGuide/",
+        "permanent": true
+      },
+      {
+        "source": "/youtube",
+        "destination": "https://www.youtube.com/@atech_guide",
+        "permanent": true
       }
     ]
 }
